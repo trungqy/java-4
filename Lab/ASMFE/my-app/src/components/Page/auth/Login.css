@@ -1,0 +1,61 @@
+.formRegister{
+    min-height: -20vh;
+}
+
+ .formRegister .titleForm{
+     text-align: center;
+     padding: 10px 0;
+ }
+  .formRegister  form{
+        background-color: white;
+        width: 380px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 40px 20px;
+        border-radius: 3px;
+        
+    }
+
+    .formRegister .formTao{
+        padding-bottom: 70px;
+    }
+    .formRegister .hasAccout{
+            text-align: center;
+            padding: 20px 0;
+    }
+
+   .formRegister form input,label{
+        display: block;
+        width: 80%;
+    }
+    .formRegister form input{
+        padding: 10px 10px;
+        border: 1px solid #dddd;
+        margin-top: 5px;
+    }
+    .formRegister   form label{
+        margin-top: 20px;
+        color: black;
+        padding-left: 35px; 
+    }
+    .formRegister   .dangKy{
+        margin-top: 20px;
+        padding: 40px 20px;
+        font-size: 18px;
+
+    }
+    .formRegister   .dangKy1{
+        color: black;
+        background-color: #277F7A;
+    }
+    .formRegister   .dangKy1:hover{
+        background-color: #184c49;
+    }
+    .formRegister  .hasAccout{
+        color: aliceblue;
+        margin-top: 10px;
+    }
+    .formRegister    .hasAccout a {
+        color:#277F7A;
+        text-decoration: none;
+    }

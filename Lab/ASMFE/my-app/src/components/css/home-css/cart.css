@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.cartContainer{
+    min-height: 120vh;
+}
+.menu{
+    margin-bottom: 30px;
+}
+.menu .nav-bar .menu-1 .item-menu-1 {
+    display: inline-block;
+    padding: 25px 10px;
+
+}
+.menu .nav-bar .menu-1 .item-menu-1 .title-item-menu-1 {
+    font-size: 15px;
+    color: #2d2d2c;
+    font-weight: 700;
+}
+
+.menu .nav-bar {
+    text-align: center;
+}
+
+.menu-1 a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu-1{
+    color: black;
+    background-color: #F7F7F7;
+}
+
+.menu-1 .item-menu-1 .title-menu-1{
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+.logo{
+    background-color: #F5F5F5;
+}
+.logo .img-logo{
+    width: 200px;
+    height: auto;
+    /* margin-left: 45%; */
+    /* padding-top: 20px; */
+    margin: auto;
+    text-align: center; 
+    margin-left: 42%;
+}
+.logo .content-logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.border-space{
+    border-left: 1px solid #52453D;
+    padding-left: 10px; 
+}
+
+.dangNhap{
+    padding-right: 10px;
+}
+.gioHang{
+    padding-right: 5px;
+    
+}   
+.logo .content-logo .flex-right{
+    max-width: 300px;
+    margin-right: 5%;
+    display: flex;
+}
+.logo .content-logo .flex-right a{
+    color: black;
+}
+.cartContainer .container-left{
+    float: left;
+    width: 60%;
+    border-right: 1px solid #dddd;
+    min-height: 500px;
+}
+
+.cartContainer .container-right{
+    float: left;
+    width: 40%;
+    min-height: 500px;
+    margin-top: 40px;
+}
+.cartContainer .container-left .titleGioHang{
+    display: flex;
+    margin-top: 30px;
+    border-bottom: 2px solid #dddd;
+    padding-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.cartContainer .container-left .titleGioHang{
+    font-size: 14px;
+    line-height: 15px;
+    color: #353535;
+    font-weight: 700;
+}
+.cartContainer .container-left .item-title{
+    flex-basis: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.cartContainer .container-left .sanPham img{
+    width: 100%;
+    height: auto;
+}
+.cartContainer .container-left .sanPham{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #dddd ;
+    flex-direction: row;
+}
+.cartContainer .container-left .sanPham .itemSanPham{
+    flex-basis: 20%;
+    padding: 20px;
+    text-align: center;
+}
+.cartContainer .container-left .sanPham input{
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+
+.cartContainer .container-left .btn{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline !important;
+}
+.cartContainer .container-left .btnXem{
+    padding: 7px 20px;
+    background-color: white;
+    border: 2px solid #2D2D2D ;
+    width: 230px;
+}
+
+.cartContainer .container-left .btnXem:hover{
+    color: white;
+    background-color: #2D2D2D;
+    transition-duration: 0.3s;
+}
+
+.cartContainer .container-right .titleRight {
+    font-size: 14px;
+    line-height: 15px;
+    color: #353535;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #dddd;
+    padding-bottom: 10px;
+}
+.cartContainer .container-right .itemTongSoLuong{
+    display: flex;
+    font-size: 14px;
+    line-height: 15px;
+    color: #353535;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 30px;
+    border-bottom:1px solid #dddd ;
+    padding-bottom: 34px;
+}
+.cartContainer .container-right .itemTongSoLuong .tongCong{
+    margin-right: 300px;
+}
+.cartContainer .container-right .itemTongSoLuong .giaoHang{
+    margin-right: 280px;
+}
+.cartContainer .container-right .btn{
+    width:90%;
+    padding: 10px;
+    margin-top:25px;
+    margin-left:5%;
+    color: white;
+    background-color: #D09F11;
+    border: none;
+}
+.cartContainer .container-right .btn:hover{
+    background-color: #ad8714;
+    transition-duration: 0.5s;
+}

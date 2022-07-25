@@ -1,0 +1,44 @@
+
+img{
+    width: 100%;
+}
+
+.logo{
+    background-color: #F5F5F5;
+    margin-bottom: 30px
+}
+.logo .img-logo{
+    width: 200px;
+    height: auto;
+    /* margin-left: 45%; */
+    /* padding-top: 20px; */
+    margin: auto;
+    text-align: center; 
+    margin-left: 42%;
+}
+.logo .content-logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.border-space{
+    border-left: 1px solid #52453D;
+    padding-left: 10px; 
+}
+
+.dangNhap{
+    padding-right: 10px;
+}
+.gioHang{
+    padding-right: 5px;
+}
+
+.logo .content-logo .flex-right{
+    max-width: 300px;
+    margin-right: 5%;
+    display: flex;
+}
+.logo .content-logo .flex-right a{
+    color: black;
+}

@@ -1,0 +1,56 @@
+.formRegister{
+    background-color: #277F7A;
+    padding-top: 20px;
+}
+
+  .formRegister  form{
+        background-color: white;
+        width: 380px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 40px 20px;
+        border-radius: 3px;
+    }
+    .formRegister   .tieuDe , .moTa ,.dieuKhoan ,.hasAccout{
+            text-align: center;
+    }
+
+   .formRegister form input,label{
+        display: block;
+        width: 80%;
+    }
+    .formRegister form input{
+        padding: 10px 10px;
+        border: 1px solid #dddd;
+        margin-top: 5px;
+    }
+    .formRegister   form label{
+        margin-top: 20px;
+        color: black;
+    }
+    .formRegister   .dangKy{
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+    .formRegister   .dangKy1{
+        color: black;
+        background-color: #277F7A;
+    }
+    .formRegister   .dangKy1:hover{
+        background-color: #184c49;
+    }
+    .formRegister  .hasAccout{
+        color: black;
+        margin-top: 10px;
+    }
+    .formRegister    .hasAccout a {
+        color:aliceblue;
+        text-decoration: none;
+    }
+    .formRegister   .dieuKhoan a{
+        color:#277F7A ;
+        text-decoration: none;
+    }
+    .formRegister   .dieuKhoan {
+        margin-top: 20px;
+    }

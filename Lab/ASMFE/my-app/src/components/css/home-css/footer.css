@@ -1,0 +1,24 @@
+
+
+.footerCha .footer{
+    background-color: #121212;
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footerCha .footer .footerr{
+    padding: 10px;
+}
+.footerCha .footer p ,.logo-footer{
+    display: inline-block;
+
+}
+.footerCha .footer .logo-footer img{
+    height: 16px;
+    width: 16px;
+    margin-left:5px ;
+}
+.footerCha .footer  a{
+    color:#A5A5A5 ;
+}

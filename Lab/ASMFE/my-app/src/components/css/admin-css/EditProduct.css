@@ -1,0 +1,62 @@
+
+.container-left .form-sua-sp{
+    display: none;
+}
+
+.container-left .form-sua-sp{
+    background-color: #ffffff;
+    position: relative;
+    padding: 30px;
+    top: 90px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    color: #FFD864;
+}
+
+.container-left #container-popup {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top :0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+}
+/* .container-left .popup{
+    background-color: rgba(0, 0, 0,0.4);
+    position: absolute;
+} */
+
+.container-left .form-sua-sp label ,input ,button{
+    display: block;
+    margin-top: 5px;
+}
+.container-left .form-sua-sp input{
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 5px;
+}
+.container-left .form-sua-sp button{
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+}
+.container-left .form-sua-sp h2{
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+.container-left .form-sua-sp label{
+    padding-left: 60px;
+}
+
+
+.container-left , .container-right{
+    padding-top: 20px;
+}
+
+.container-left .title-them{
+    margin: 20px 0;
+    text-align: center;
+}

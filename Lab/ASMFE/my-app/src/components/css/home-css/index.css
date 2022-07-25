@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat";
+}
+.menu a {
+    text-decoration: none;
+}
+.menu .nav-bar .menu-1 .item-menu-1 {
+    display: inline-block;
+    padding: 25px 10px;
+
+}
+.menu .nav-bar .menu-1 .item-menu-1 .title-item-menu-1 {
+    font-size: 15px;
+    color: #2d2d2c;
+    font-weight: 700;
+}
+
+.menu .nav-bar {
+    text-align: center;
+}
+
+.menu-1 a{
+    color: black;
+    font-weight: 500;
+}
+.menu-1{
+    color: black;
+    background-color: #F7F7F7;
+}
+
+.menu-1 .item-menu-1 .title-menu-1{
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+
+/* Banner */
+.banner {
+    background: url(../../img/slideshow_1.jpg) no-repeat center center/cover ;
+    height: 600px;
+}
+
+.banner .text-banner{
+    position: relative;
+    top: 300px;
+    /* left: 70px; */
+    color: #ffffff;
+    margin-left: 70px;
+}
+.banner .text-banner h2{
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.banner .text-banner h4{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.banner .text-banner .btn{
+    color: white;
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+
+.banner .text-banner .btn-primary:hover{
+    transition-duration: 0.4s;
+    background-color: white;
+    color: #52453D;
+}
+
+.search {
+    margin-left: 35px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border:1px solid;
+}
+
+.logo{
+    background-color: #F5F5F5;
+}
+.logo .img-logo{
+    width: 200px;
+    height: auto;
+    /* margin-left: 45%; */
+    /* padding-top: 20px; */
+    margin: auto;
+    text-align: center; 
+    margin-left: 42%;
+}
+.logo .content-logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.border-space{
+    border-left: 1px solid #52453D;
+    padding-left: 10px; 
+}
+
+.dangNhap{
+    padding-right: 10px;
+}
+.gioHang{
+    padding-right: 5px;
+}
+
+
+
+.indexCss .san-pham {
+    display: inline-block;
+    width: 20%;
+    border-radius: 5px;
+
+    flex-basis: calc(35% - 45px);
+    margin-left: 4%;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.indexCss .san-pham .hinh-anh:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.indexCss .san-pham .hang{
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #c7b5b5;
+    padding-top: 10px;
+}
+
+.indexCss .san-pham .ten{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #353535;
+    margin-top: 5px;
+}
+
+.indexCss .san-pham .gia{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #353535;
+    margin: 10px 0 ;
+}
+
+.indexCss .san-pham .btn{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: black;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd ;
+    border-radius: 10px;
+    margin: auto;
+}
+.indexCss .san-pham .btn-primary:hover{
+    box-shadow: 1px 1px 4px #dddddd;
+}
+
+.indexCss .title-san-pham{
+    padding-top:20px;
+    padding-left: 30px;
+}
+
+.logo .content-logo .flex-right{
+    max-width: 300px;
+    margin-right: 5%;
+    display: flex;
+}
+.logo .content-logo .flex-right a{
+    color: black;
+}
+
+/* showcase */
+.showCase{
+    background-image: url(../../img/bg-table-chair.jpg);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.showCase img{
+    width: 100%;
+}
+.showCase .mask{
+    background:rgba(0, 0, 0, 0.4);
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.showCase .itemShowCase{
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 36px;
+}
+.showCase .itemShowCase i{
+    color: #FFD864;
+}
+
+/* event */
+
+.event .img-event{
+    width: 46%;
+    display: inline-flex;
+    margin-top:50px;
+    overflow: hidden;
+}
+.event .img-event:hover img{
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+}
+.event #img-event1{
+    margin-left: 2%;
+}
+.event #img-event2{
+    margin-left: 2%;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.editDesign{
+    min-height: 120vh;
+}
+.menu{
+    margin-bottom: 30px;
+}
+.menu .nav-bar .menu-1 .item-menu-1 {
+    display: inline-block;
+    padding: 25px 10px;
+
+}
+.menu .nav-bar .menu-1 .item-menu-1 .title-item-menu-1 {
+    font-size: 15px;
+    color: #2d2d2c;
+    font-weight: 700;
+}
+
+.menu .nav-bar {
+    text-align: center;
+}
+
+.menu-1 a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu-1{
+    color: black;
+    background-color: #F7F7F7;
+}
+
+.menu-1 .item-menu-1 .title-menu-1{
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+.logo{
+    background-color: #F5F5F5;
+}
+.logo .img-logo{
+    width: 200px;
+    height: auto;
+    /* margin-left: 45%; */
+    /* padding-top: 20px; */
+    margin: auto;
+    text-align: center; 
+    margin-left: 42%;
+}
+.logo .content-logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.border-space{
+    border-left: 1px solid #52453D;
+    padding-left: 10px; 
+}
+
+.dangNhap{
+    padding-right: 10px;
+}
+.gioHang{
+    padding-right: 5px;
+}   
+.logo .content-logo .flex-right{
+    max-width: 300px;
+    margin-right: 5%;
+    display: flex;
+}
+.logo .content-logo .flex-right a{
+    color: black;
+}
+.container-left{
+    float: left;
+    width: 30%;
+    border-right: 1px solid #dddd;
+    min-height: 500px;
+}
+
+.container-right{
+    float: left;
+    width: 70%;
+    border-left: 1px solid #dddd;
+    min-height: 500px;
+}
+
+.editDesign .san-pham {
+    display: inline-block;
+    width: 30%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    flex-basis: calc(35% - 45px);
+    margin-left: 2.5%;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    text-align: center;
+}
+.editDesign .san-pham i {
+    margin-top: 10px;
+}
+.editDesign     .san-pham .fa-tools{
+    margin-right: 40px;
+}
+
+
+
+body{
+    background-color: #F5F5F5;
+}
+.tim-kiem-sp input{
+    padding: 5px;
+    width: 23%;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+}
+
+.tim-kiem-sp button{
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.tim-kiem-sp button:hover{
+    background-color: #FFD864;
+    color: white;
+    
+}
+select{
+    padding: 5px 120px;
+    margin-left: 40px;
+}
+
